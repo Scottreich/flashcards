@@ -1,5 +1,6 @@
 $(document).ready(function() {
-$("li").click(function() {
-  alert("TEST TEST");
+$("ul").click(function() {
+  $(".java-hiding").toggle();
+  $(".java-showing").toggle();
 });
 });
